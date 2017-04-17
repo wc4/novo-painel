@@ -1,0 +1,320 @@
+a.spe_delete,
+button.spe{
+    font-family: inherit; /* for FF */
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    color: #FFF;
+    border: 1px solid #888888;
+    background-color: #999999;
+    font-size: 11px; 
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.196);
+    line-height: 18px;
+    padding: 1px 6px; 
+    
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    
+    box-shadow: rgba(0,0,0, 0.4) 0px 0px 3px;
+    -moz-box-shadow: rgba(0,0,0, 0.4) 0px 0px 3px;
+    -webkit-box-shadow: rgba(0,0,0, 0.4) 0px 0px 3px;
+} 
+
+a.spe_delete{
+    display:block;
+    border: 1px solid transparent;
+	height: 17px;
+    width: 17px;
+    padding: 0; 
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    background-image: url('../img/close.svg');
+    
+}
+
+button.spe{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button.spe::-moz-focus-inner{
+    border:0;
+    padding:0;
+}
+
+a.spe_delete:hover,
+button.spe:hover{
+    background-color: #D94136 !important;
+    color: #FFFFFF !important;
+} 
+
+
+
+.spe_description{
+    font-size: 11px;
+    color: #888888;
+    margin-bottom: 2px;
+} 
+
+.spe_thumbnail{
+    position: relative;
+    display:table;
+	table-layout: fixed;
+    margin-bottom: 5px;
+	width: 301px; /* 1px greater for validation border */
+	height: 201px; /* 1px greater for validation border */
+	background-color: #ECECEC;
+/*     border: 1px solid #CCCCCC; */
+}
+
+.spe_thumbnail a.spe_delete{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.spe_thumbnail .spe_wrap{
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.spe_thumbnail .spe_empty,
+.spe_thumbnail .spe_error{
+    padding: 5px;
+}
+
+.spe_thumbnail .spe_error{
+	color: #CC0000;
+}
+
+.spe_thumbnail img{
+    display:block;
+    margin: 0 auto;
+    max-width: 100%; /* needed for validation border */
+    max-height: 100%; /* needed for validation border */
+}
+
+
+.spe_multiselect{
+	height: auto;
+} 
+
+.spe_multiselect option{
+	padding: 2px 2px 2px 4px;
+} 
+
+
+
+.spe_multitext{
+    display:table;
+    table-layout: fixed;
+    width: 100%;
+} 
+
+
+
+
+.spe_multitext .spe_row{
+    display:table-row;
+    width: 100%;
+}
+
+/*  while dragging */
+.spe_multitext .spe_row.ui-sortable-helper,
+.spe_multiimage .spe_image-cell.ui-sortable-helper{
+    background-color: #FFFFD5;
+}
+
+.spe_multitext .spe_image-cell{
+    display:table-cell;
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+.spe_multitext .spe_image-cell:first-child{
+	    padding-top: 0;
+}
+
+.spe_multitext .spe_image-cell.spe_drag{
+    cursor: pointer;
+    width: 25px;
+    text-align: right;
+} 
+
+/* move handle */
+.spe_multitext .spe_image-cell.spe_narrow{
+    width: 20px;
+    padding-left: 5px;
+} 
+
+.spe_multitext input{
+    display:inline-block;
+    width: 100%;
+} 
+
+.spe_multitext a.spe_delete{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+} 
+
+
+
+
+
+#maincontent .spe_multiimage > ul{ /* resets */
+	margin: 0;
+	list-style-type: none;
+}
+
+.spe_multiimage > ul:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+
+.spe_multiimage li.spe_image-cell{
+	float:left;
+	position: relative;
+	width: 149px; /* 1px greater than image for validation border */
+	height: 112px; /* 1px greater than image for validation border */
+	margin-right: 3px;
+	margin-bottom: 5px;
+    background-color: #ECECEC;
+}
+
+.spe_multiimage .spe_thumbnail{
+    margin-bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+/* #maincontent button.spe{
+    border: none;
+    color: #FFF;
+    background-color: #999999;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.196);
+    font-size: 11px;
+    line-height: 18px;
+    padding: 1px 4px;
+    margin-top: 4px;
+}
+
+#maincontent .edit-nav button.spe{
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+} */
+
+
+
+
+/* used on required img asterix  */
+.spe_img{
+    vertical-align:middle;
+}
+
+#post-title.spe_validation-error,
+.spe_validation-error div.cke,
+.spe_validation-error .spe_thumbnail,
+.spe_multitext input.spe_validation-error,
+.spe_multitext button.spe.spe_validation-error,
+.spe_multiimage button.spe.spe_validation-error,
+.spe_validation-error > input[type="text"],
+.spe_validation-error > select,
+.spe_validation-error > textarea{
+    border: 1px solid #CC0000 !important;
+}
+
+
+
+label[for="post-title"],
+label[for="post-content"]{
+    margin-bottom: 3px;
+}
+
+/* #maincontent .formtable td{
+    vertical-align: bottom;
+    padding-bottom: 7px;
+}   */
+
+
+
+/* add margin, when keywords and metta hidden it not look good */
+#metadata_window #menu-items{
+    margin-bottom: 10px;
+}
+
+
+
+
+.spe_special-container,
+.spe_special-container *,
+.spe_special-container *:before,
+.spe_special-container *:after {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.spe_special-container{
+	width: 100%;
+	1border-top: 1px solid #eee;
+}
+.spe_special-container .spe_cell select{
+	padding: 4px 5px !important;
+}
+
+.spe_special-container .spe_cell textarea{
+	width: 100% !important;
+	height: 200px !important;
+}
+
+
+
+/* wydiwyg editor */
+.spe_special-container .spe_cell .cke_skin_getsimple,
+.spe_special-container .spe_cell .cke_skin_getsimple *{
+  -webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: content-box;    /* Firefox, other Gecko */
+  box-sizing: content-box;         /* Opera/IE 8+ */
+}
+
+
+.spe_special-container .spe_cell .edit-nav{
+    display:inline-block;
+	height: auto;
+	width: auto;
+	margin: 10px 0 5px 0 !important;
+}
+.spe_special-container .spe_cell .edit-nav a{
+    display:block;
+	float:none;
+	margin: 0;
+}
+
+

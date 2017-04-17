@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel><item><plugin><![CDATA[i18n_search.php]]></plugin><enabled><![CDATA[true]]></enabled></item><item><plugin><![CDATA[i18n_specialpages.php]]></plugin><enabled><![CDATA[true]]></enabled></item><item><plugin><![CDATA[SpecialPagesExtras.php]]></plugin><enabled><![CDATA[true]]></enabled></item></channel>

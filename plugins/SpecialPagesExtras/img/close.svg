@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="12px" height="12px" viewBox="0 0 12 12" >
+<g>
+	<g>
+		
+			<rect x="5.118" y="-0.144" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 6.001 14.4828)" fill="#CECECE" width="1.764" height="12.285"/>
+	</g>
+	<g>
+		
+			<rect x="-0.144" y="5.119" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 5.9982 14.4856)" fill="#CECECE" width="12.286" height="1.763"/>
+	</g>
+</g>
+<g>
+	
+		<rect x="5.56" y="0.362" transform="matrix(-0.7074 -0.7068 0.7068 -0.7074 6.0042 14.4856)" fill="#6D6D6D" width="0.881" height="11.276"/>
+</g>
+<g>
+	
+		<rect x="0.361" y="5.559" transform="matrix(-0.7072 -0.7071 0.7071 -0.7072 5.9997 14.4849)" fill="#6D6D6D" width="11.277" height="0.883"/>
+</g>
+</svg>

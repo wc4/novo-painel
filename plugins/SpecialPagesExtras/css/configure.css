@@ -1,0 +1,108 @@
+.spe_field_button::-moz-focus-inner{
+    border:0;
+    padding:0;
+}
+
+.spe_field_button{
+    font-family: inherit; /* for FF */
+    border-radius: 3px;
+    display: block;
+    font-size: 10px;
+    padding: 1px 6px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.196);
+    border: none;
+    cursor: pointer;
+    line-height: 14px;
+    margin-bottom: 4px;
+	background: transparent;
+}
+
+.spe_field_button img{
+    vertical-align: middle;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}     
+
+.spe_field_button:hover{
+    background-color: #CF3805;
+    color: #FFF;
+}   
+
+.spe_options {
+    font-size: 12px;
+    color: #222222;
+    
+} 
+
+.spe_options.dialog{
+    padding: 20px;
+} 
+
+.spe_options .buttons {
+    float: right;
+}    
+
+.spe_options .buttons .valueok{
+    margin-right: 10px;
+    padding: 1px 8px;
+}
+
+.spe_options *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+.spe_options input[type="text"],
+.spe_options textarea{
+    width: 100%;
+}   
+
+.spe_options textarea{
+    height: 70px;
+}
+
+
+.spe_options table{
+   min-width: 650px;
+} 
+
+.spe_options table td{
+	vertical-align: middle;
+} 
+
+
+.spe_options table tr.space-top td{
+	padding-top: 30px;
+} 
+
+.spe_options table td.label{
+    width: 270px;
+	text-align: right;
+	vertical-align: top;
+}   
+
+.spe_options td.label label{
+    font-weight: normal;
+}   
+
+.spe_options td.label p.hint{
+    font-size: 11px;
+    color: #888888;
+	margin:  0 !important;
+}     
+     
+
+.spe_options td.inline select,
+.spe_options td.inline input{
+    width: auto;
+	display:inline-block;
+} 
+
+
+
+
+	 

@@ -1,0 +1,183 @@
+<div id="spe_page-options" class="spe_options" >
+    <table>
+    
+        <tr>
+            <td class="label"><label for="spe_page-type-show" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_TYPE_SHOW'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-type-show" name="spe_page-type-show" /></td>
+        </tr>    
+
+        <tr>
+            <td class="label"><label for="spe_page-options-show" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_OPTIONS_SHOW'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-options-show" name="spe_page-options-show" /></td>
+        </tr>   
+
+        <tr class="space-top">
+            <td class="label"><label for="spe_page-title-label-show" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_SHOW_TITLE_LABEL'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-title-label-show" name="spe_page-title-label-show" /></td>
+        </tr>    
+
+        <tr>
+            <td class="label"><label for="spe_page-title-label" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_TITLE_LABEL'); ?></label></td>
+            <td><input type="text" id="spe_page-title-label" name="spe_page-title-label" class="form-control input-sm" value="" /></td>
+        </tr>  
+
+		<tr >
+            <td class="label">
+				<label for="spe_field-regex" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_TITLE_REGEX'); ?></label>
+				<p class="hint"><?php i18n('SpecialPagesExtras/FIELD_REGEX_HINT'); ?></p>
+			</td>
+            <td><input type="text" id="spe_page-title-regex" name="spe_page-title-regex" class="form-control input-sm" value="" /></td>
+        </tr>    
+
+        <tr class="space-top">
+            <td class="label"><label for="spe_page-content-hide" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_CONTENT_HIDE'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-content-hide" name="spe_page-content-hide"   /></td>
+        </tr>   
+        
+        <tr>
+            <td class="label"><label for="spe_page-content-label-show" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_SHOW_CONTENT_LABEL'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-content-label-show" name="spe_page-content-label-show"   /></td>
+        </tr>  
+
+        <tr>
+            <td class="label"><label for="spe_page-content-label" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_CONTENT_LABEL'); ?></label></td>
+            <td><input type="text" id="spe_page-content-label" name="spe_page-content-label" class="form-control input-sm" value="" /></td>
+        </tr> 
+        
+        <tr>
+            <td class="label"><label for="spe_page-content-required" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_CONTENT_REQUIRED'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-content-required" name="spe_page-content-required" /></td>
+        </tr>
+
+        <tr class="space-top">
+            <td class="label">
+                <label for="spe_page-menu-hide" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_HIDE_MENU'); ?></label>
+                <p class="hint"><?php i18n('SpecialPagesExtras/PAGE_HIDE_MENU_HINT'); ?></p>
+            </td>
+            <td><input type="checkbox" id="spe_page-menu-hide" name="spe_page-menu-hide" /></td>
+        </tr>  
+
+        <tr>
+            <td class="label"><label for="spe_page-tags-hide" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_HIDE_KEYWORDS'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-tags-hide" name="spe_page-tags-hide" /></td>
+        </tr>      
+
+        <tr>
+            <td class="label"><label for="spe_page-meta-description-hide" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_HIDE_DESCRIPTION'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-meta-description-hide" name="spe_page-meta-description-hide" value="" /></td>
+        </tr>     
+
+        <tr>
+            <td class="label"><label for="spe_page-extra-browser" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/PAGE_EXTRA_BROWSER'); ?></label></td>
+            <td><input type="checkbox" id="spe_page-extra-browser" name="spe_page-extra-browser" value="" /></td>
+        </tr>
+    </table>
+
+</div>   
+
+
+<div id="spe_field-dialog" class="dialog spe_options" style="display:none">
+    <h3>Configurar atributo <span class="label label-default"></span></h3>
+    
+    <form>
+        <table>
+        
+            <tr>
+                <td class="label"><label for="spe_field-required" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/FIELD_REQUIRED'); ?></label></td>
+                <td>
+                    <input type="checkbox" id="spe_field-required" name="spe_field-required" />
+                </td>
+            </tr> 
+            <tr>
+                <td class="label">
+					<label for="spe_field-description" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/FIELD_DESCRIPTION'); ?></label>
+					<p class="hint"><?php i18n('SpecialPagesExtras/FIELD_DESCRIPTION_HINT'); ?></p>
+				</td>
+                <td ><textarea id="spe_field-description" name="spe_field-description" class="form-control input-sm"></textarea> </td>
+            </tr>  
+
+			
+			<tr>
+                <td class="label">
+					<label for="spe_field-cell-width" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/FIELD_CELL_WIDTH'); ?></label>
+					<p class="hint"><?php i18n('SpecialPagesExtras/FIELD_CELL_WIDTH_HINT'); ?></p>
+					<p class="hint" data-for-type="multiimage imagewiththumb"><?php i18n('SpecialPagesExtras/FIELD_IMAGE_CELL_WIDTH_HINT'); ?></p>
+				</td>
+                <td class="inline">
+					<input type="text" id="spe_field-cell-width" name="spe_field-cell-width" class="form-control input-sm" size="4" maxlength="3"  />
+					<select class="form-control input-sm" name="spe_field-cell-width-unit" >
+						<option value="percent">%</option>
+						<option value="px">px</option>
+					</select>
+				</td>
+            </tr> 			
+
+
+			<tr data-param="thumbnail">
+                <td class="label"><label for="spe_field-thumbnail"><?php i18n('SpecialPagesExtras/FIELD_THUMBNAIL'); ?></label></td>
+                <td><input type="checkbox" id="spe_field-thumbnail" name="spe_field-thumbnail" /></td>
+            </tr>    
+
+			<tr data-param="regex">
+                <td class="label">
+					<label for="spe_field-regex" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/FIELD_REGEX'); ?></label>
+					<p class="hint"><?php i18n('SpecialPagesExtras/FIELD_REGEX_HINT'); ?></p>
+					<p class="hint" data-for-type="multiselect"><?php i18n('SpecialPagesExtras/FIELD_MULTISELECT_HINT'); ?></p>
+				</td>
+                <td><input type="text" id="spe_field-regex" name="spe_field-regex" class="form-control input-sm" /></td>
+            </tr>  		
+
+			<!-- name it as aspect ratio width, its used only for showing  -->
+			<tr data-param="aspect-ratio-width"> 
+                <td class="label">
+					<label for="spe_field-aspect-ratio-width" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/FIELD_ASPECT_RATIO'); ?></label>
+					<p class="hint"><?php i18n('SpecialPagesExtras/FIELD_ASPECT_RATIO_HINT'); ?></p>
+				</td>
+                <td class="inline">
+					<input type="text" id="spe_field-aspect-ratio-width" name="spe_field-aspect-ratio-width" class="form-control input-sm" size="4" maxlength="4"  />
+					&nbsp;/&nbsp;
+					<input type="text" name="spe_field-aspect-ratio-height" class="form-control input-sm" size="4" maxlength="4"  />
+				</td>
+            </tr>  			
+
+			<!-- "width", its used only for showing, it contains two params  -->
+			<tr data-param="width">
+                <td class="label">
+					<label for="spe_field-width" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/FIELD_WIDTH'); ?></label>
+					<p class="hint"><?php i18n('SpecialPagesExtras/FIELD_WIDTH_HINT'); ?></p>
+				</td>
+                <td class="inline">
+					<select class="form-control input-sm" name="spe_field-width-comparator" >
+						<option value="gte">&gt;=</option>
+						<option value="=">=</option>
+						<option value="lte">&lt;=</option>
+					</select>
+					<input type="text" id="spe_field-width" name="spe_field-width" class="form-control input-sm" size="4" maxlength="4"  />
+				</td>
+            </tr> 		
+
+			<tr data-param="height">
+                <td class="label">
+					<label for="spe_field-height" class="text-danger" style="font-size: 12px"><?php i18n('SpecialPagesExtras/FIELD_HEIGHT'); ?></label>
+					<p class="hint"><?php i18n('SpecialPagesExtras/FIELD_HEIGHT_HINT'); ?></p>
+				</td>
+                <td class="inline">
+					<select class="form-control input-sm" name="spe_field-height-comparator" >
+						<option value="gte">&gt;=</option>
+						<option value="=">=</option>
+						<option value="lte">&lt;=</option>
+					</select>
+					<input type="text" id="spe_field-height" name="spe_field-height" class="form-control input-sm" size="4"  />
+				</td>
+            </tr> 		
+  	
+           
+
+        </table>
+        <div class="buttons">
+            <input class="btn btn-success btn-xs" type="submit" value="<?php i18n('SpecialPagesExtras/OK'); ?>" />
+            <button class="btn btn-danger btn-xs"><?php i18n('SpecialPagesExtras/CANCEL'); ?></button>
+        </div>
+    </form>
+
+</div>  

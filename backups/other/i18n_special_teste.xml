@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specialpage><name>teste</name><title><![CDATA[teste]]></title><parent>index</parent><tags><![CDATA[]]></tags><slug/><template><![CDATA[template.php]]></template><menu/><headercomponent/><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[1]]></name><label><![CDATA[2]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[2]]></name><label><![CDATA[3]]></label><type><![CDATA[text]]></type></item></fields></specialpage>
